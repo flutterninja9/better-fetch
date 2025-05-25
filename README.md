@@ -1,3 +1,4 @@
+![Better Fetch Banner](./banner.png)
 # Better Fetch - Advanced Web Content MCP Server
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
