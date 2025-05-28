@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![smithery badge](https://smithery.ai/badge/@flutterninja9/better-fetch)](https://smithery.ai/server/@flutterninja9/better-fetch)
 
 A powerful Model Context Protocol (MCP) server that intelligently fetches and processes web content with nested URL crawling capabilities. Transform any documentation site or web resource into clean, structured markdown files perfect for AI consumption and analysis.
 
@@ -76,6 +77,14 @@ Simple single-page content extraction.
 - **Content Summarization**: Prepare web content for automated summarization tasks
 
 ## 🛠️ Installation & Setup
+
+### Installing via Smithery
+
+To install Better Fetch for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@flutterninja9/better-fetch):
+
+```bash
+npx -y @smithery/cli install @flutterninja9/better-fetch --client claude
+```
 
 ### Prerequisites
 - Node.js 18+ 
