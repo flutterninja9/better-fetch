@@ -113,7 +113,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "better-fetch": {
       "command": "node",
-      "args": ["/absolute/path/to/better-fetch/dist/index.js"],
+      "args": ["/absolute/path/to/better-fetch/dist/server.js"],
       "env": {
         "NODE_ENV": "production"
       }
@@ -127,7 +127,7 @@ Add to your `claude_desktop_config.json`:
 {
   "better-fetch": {
     "command": "node",
-    "args": ["/Users/yourusername/better-fetch/dist/index.js"]
+    "args": ["/Users/yourusername/better-fetch/dist/server.js"]
   }
 }
 ```
@@ -137,7 +137,7 @@ Add to your `claude_desktop_config.json`:
 {
   "name": "better-fetch",
   "command": "node",
-  "args": ["/path/to/better-fetch/dist/index.js"],
+  "args": ["/path/to/better-fetch/dist/server.js"],
   "stdio": true
 }
 ```
@@ -214,7 +214,7 @@ The server generates comprehensive markdown files with the following structure:
 ```
 better-fetch/
 ├── src/
-│   └── index.ts          # Main server implementation
+│   └── server.ts          # Main server implementation
 ├── dist/                 # Compiled JavaScript
 ├── test-mcp.js          # Testing utilities
 ├── output.md            # Sample output file
