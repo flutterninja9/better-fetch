@@ -1,5 +1,5 @@
 {
-  "name": "better-fetch",
+  "name": "better-fetch-mcp",
   "version": "1.0.0",
   "description": "Advanced MCP server for web scraping with nested URL fetching and intelligent markdown formatting",
   "type": "module",
@@ -23,7 +23,7 @@
     "typescript": "^5.0.0"
   },
   "bin": {
-    "better-fetch": "./dist/server.js"
+    "better-fetch": "dist/server.js"
   },
   "keywords": [
     "mcp",
@@ -33,5 +33,6 @@
     "crawler"
   ],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "scope": "@flutterninja9"
 }
