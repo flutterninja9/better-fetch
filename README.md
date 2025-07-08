@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/flutterninja9-better-fetch-badge.png)](https://mseep.ai/app/flutterninja9-better-fetch)
+
 ![Better Fetch Banner](./banner.png)
 # Better Fetch - Advanced Web Content MCP Server
 
