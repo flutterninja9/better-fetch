@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import {
@@ -366,7 +367,7 @@ const TOOLS: Tool[] = [
 // Create the server
 const server = new Server(
   {
-    name: "advanced-web-scraper",
+    name: "better-fetch",
     version: "1.0.0",
   },
   {

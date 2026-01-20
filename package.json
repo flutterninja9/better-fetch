@@ -1,10 +1,14 @@
 {
-  "name": "better-fetch-mcp",
+  "name": "@infero.mcp/better-fetch",
   "version": "1.0.0",
   "description": "Advanced MCP server for web scraping with nested URL fetching and intelligent markdown formatting",
   "type": "module",
   "main": "dist/server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
+    "prepublishOnly": "npm run clean && npm run build",
     "start": "node dist/server.js",
     "dev": "tsx src/server.ts",
     "build": "tsc",
@@ -25,14 +29,29 @@
   "bin": {
     "better-fetch": "dist/server.js"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "mcp",
+    "model-context-protocol",
     "web-scraper",
     "documentation",
     "markdown",
-    "crawler"
+    "crawler",
+    "web-crawler",
+    "content-extraction"
   ],
-  "author": "Your Name",
+  "author": "flutterninja9",
   "license": "MIT",
-  "scope": "@flutterninja9"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flutterninja9/better-fetch.git"
+  },
+  "homepage": "https://github.com/flutterninja9/better-fetch#readme",
+  "bugs": {
+    "url": "https://github.com/flutterninja9/better-fetch/issues"
+  }
 }

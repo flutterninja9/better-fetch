@@ -6,7 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)](https://nodejs.org/)
-[![smithery badge](https://smithery.ai/badge/@flutterninja9/better-fetch)](https://smithery.ai/server/@flutterninja9/better-fetch)
+[![smithery badge](https://smithery.ai/badge/@infero.mcp/better-fetch)](https://smithery.ai/server/@infero.mcp/better-fetch)
+[![npm version](https://img.shields.io/npm/v/@infero.mcp/better-fetch)](https://www.npmjs.com/package/@infero.mcp/better-fetch)
 
 A powerful Model Context Protocol (MCP) server that intelligently fetches and processes web content with nested URL crawling capabilities. Transform any documentation site or web resource into clean, structured markdown files perfect for AI consumption and analysis.
 
@@ -80,12 +81,40 @@ Simple single-page content extraction.
 
 ## 🛠️ Installation & Setup
 
+### Quick Install via npm (Recommended)
+
+The simplest way to use Better Fetch is via npx. Just add this to your MCP client configuration:
+
+**For Claude Desktop** - Add to `claude_desktop_config.json`:
+```json
+{
+  "mcpServers": {
+    "better-fetch": {
+      "command": "npx",
+      "args": ["-y", "@infero.mcp/better-fetch"]
+    }
+  }
+}
+```
+
+**For VS Code MCP Extension**:
+```json
+{
+  "better-fetch": {
+    "command": "npx",
+    "args": ["-y", "@infero.mcp/better-fetch"]
+  }
+}
+```
+
+This automatically downloads and runs the latest version without any manual installation or build steps.
+
 ### Installing via Smithery
 
-To install Better Fetch for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@flutterninja9/better-fetch):
+To install Better Fetch for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@infero.mcp/better-fetch):
 
 ```bash
-npx -y @smithery/cli install @flutterninja9/better-fetch --client claude
+npx -y @smithery/cli install @infero.mcp/better-fetch --client claude
 ```
 
 ### Prerequisites
@@ -95,7 +124,7 @@ npx -y @smithery/cli install @flutterninja9/better-fetch --client claude
 
 ### Step 1: Clone and Install
 ```bash
-git clone https://github.com/yourusername/better-fetch.git
+git clone https://github.com/flutterninja9/better-fetch.git
 cd better-fetch
 npm install
 ```
@@ -116,9 +145,46 @@ node test-mcp.js
 
 ### Step 4: Configure Your MCP Client
 
-#### For Claude Desktop:
+#### For Claude Desktop (Recommended - via npm):
 Add to your `claude_desktop_config.json`:
 
+```json
+{
+  "mcpServers": {
+    "better-fetch": {
+      "command": "npx",
+      "args": ["-y", "@infero.mcp/better-fetch"]
+    }
+  }
+}
+```
+
+#### For VS Code MCP Extension (Recommended - via npm):
+```json
+{
+  "better-fetch": {
+    "command": "npx",
+    "args": ["-y", "@infero.mcp/better-fetch"]
+  }
+}
+```
+
+#### For Custom MCP Client (via npm):
+```json
+{
+  "name": "better-fetch",
+  "command": "npx",
+  "args": ["-y", "@infero.mcp/better-fetch"]
+}
+```
+
+---
+
+#### Manual Installation (Alternative)
+
+If you prefer to install and build locally:
+
+**For Claude Desktop:**
 ```json
 {
   "mcpServers": {
@@ -133,23 +199,13 @@ Add to your `claude_desktop_config.json`:
 }
 ```
 
-#### For VS Code MCP Extension:
+**For VS Code MCP Extension:**
 ```json
 {
   "better-fetch": {
     "command": "node",
-    "args": ["/Users/yourusername/better-fetch/dist/server.js"]
+    "args": ["/absolute/path/to/better-fetch/dist/server.js"]
   }
-}
-```
-
-#### For Custom MCP Client:
-```json
-{
-  "name": "better-fetch",
-  "command": "node",
-  "args": ["/path/to/better-fetch/dist/server.js"],
-  "stdio": true
 }
 ```
 
@@ -287,9 +343,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Support & Issues
 
-- **Bug Reports**: [GitHub Issues](https://github.com/yourusername/better-fetch/issues)
-- **Feature Requests**: [GitHub Discussions](https://github.com/yourusername/better-fetch/discussions)
-- **Documentation**: Check the [Wiki](https://github.com/yourusername/better-fetch/wiki)
+- **Bug Reports**: [GitHub Issues](https://github.com/flutterninja9/better-fetch/issues)
+- **Feature Requests**: [GitHub Discussions](https://github.com/flutterninja9/better-fetch/discussions)
+- **Documentation**: Check the [Wiki](https://github.com/flutterninja9/better-fetch/wiki)
+- **npm Package**: [@infero.mcp/better-fetch](https://www.npmjs.com/package/@infero.mcp/better-fetch)
 
 ## 🙏 Acknowledgments
 
