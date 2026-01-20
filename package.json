@@ -1,6 +1,6 @@
 {
   "name": "@infero.mcp/better-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Advanced MCP server for web scraping with nested URL fetching and intelligent markdown formatting",
   "type": "module",
   "main": "dist/server.js",
