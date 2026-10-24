@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)](https://nodejs.org/)
-[![smithery badge](https://smithery.ai/badge/@infero.mcp/better-fetch)](https://smithery.ai/server/@infero.mcp/better-fetch)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.flutterninja9/better-fetch)](https://lightnow.ai/servers/io.github.flutterninja9/better-fetch)
 [![npm version](https://img.shields.io/npm/v/@infero.mcp/better-fetch)](https://www.npmjs.com/package/@infero.mcp/better-fetch)
 
 A powerful Model Context Protocol (MCP) server that intelligently fetches and processes web content with nested URL crawling capabilities. Transform any documentation site or web resource into clean, structured markdown files perfect for AI consumption and analysis.
